@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.navbar-container {
+    background: #614232;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    z-index: 20;
+}
+
+.navbar-wrapper {
+    display: flex;
+    padding: 0 2rem;
+    max-width: 1160px;
+    height: inherit;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar-wrapper h1 {
+    color: #fff;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 36px;
+    cursor: pointer;
+}
+
+.navbar-wrapper ul li {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.navbar-wrapper ul li:last-of-type {
+    border: 1px solid white;
+    padding: 5px 24px;
+    border-radius: 10px;
+}
+
+.navbar-wrapper ul li a {
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+}
+
+.order-now:hover {
+    background: #3b281f;
+}
+
+.navbar__links {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.navbar__links--link {
+    margin: 0 1rem;
+}
+
+.navbar__links--link:first-of-type {
+    margin-left: 0;
+}
+
+.navbar__links--link:last-of-type {
+    margin-right: 0;
+}
+
+/*Link Animation*/
+.navbar-wrapper ul li a::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    left:0;
+    bottom: 0.2px;
+    background: #fff;
+    transition: all 1s ease;
+}
+
+.navbar-wrapper ul li a:hover::after {
+    width: 100%;
+}
