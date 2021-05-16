@@ -11,8 +11,9 @@
     max-width: 1440px;
     /* max-width: 100%; */
     min-width: auto;
+    background: #fff;
     /* height: 1228px; */
-    background: rgb(233, 229, 225);
+    /* background: rgb(233, 229, 225); */
 }
 
 .middle-section-container {
@@ -44,6 +45,10 @@
     font-family: 'Luckiest Guy', cursive;
     font-size: 30px;
     color: #CF3E21;
+}
+
+.pizza-name:hover {
+    color: #614232;
 }
 
 .pizza-image {
