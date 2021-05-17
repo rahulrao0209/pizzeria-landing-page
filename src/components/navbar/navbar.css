@@ -1,17 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-}
-
 .navbar-container {
     background: #614232;
+    width: 100vw;
     height: 50px;
     position: sticky;
     top: 0;
-    z-index: 20;
+    z-index: 10;
 }
 
 .navbar-wrapper {
@@ -22,6 +15,10 @@
     margin: 0 auto;
     justify-content: space-around;
     align-items: center;
+}
+
+.navbar__hamburger {
+    display: none;
 }
 
 .navbar-wrapper h1 {
@@ -84,4 +81,53 @@
 
 .navbar-wrapper ul li a:hover::after {
     width: 100%;
+}
+
+/*Tablet Size*/
+@media (min-width: 768px) and (max-width: 990px) {  
+
+}
+
+/*Mobile Landscape Size*/
+@media (min-width: 480px) and (max-width: 767px) {  
+    .navbar__logo h1{
+        font-size: 28px;
+    }
+
+    .navbar__links {
+        display: none;
+    }
+
+    .navbar__hamburger {
+        display: block;
+        color: #fff;
+        font-size: 28px;
+        margin-top: 0.5rem;
+    }
+
+    .navbar-wrapper {
+        justify-content: space-between;
+    }
+}
+
+/*Mobile Portrait Size*/
+@media (min-width: 240px) and (max-width: 479px) {  
+    .navbar__logo h1{
+        font-size: 24px;
+    }
+
+    .navbar__links {
+        display: none;
+    }
+
+    .navbar-wrapper {
+        justify-content: space-between;
+    }
+
+    .navbar__hamburger {
+        display: block;
+        color: #fff;
+        font-size: 24px;
+        margin-top: 0.5rem;
+    }
 }
