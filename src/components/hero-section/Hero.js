@@ -9,7 +9,7 @@ export const Hero = () => {
                 <HeroHeading />
                 <img
                     className="hero-section-image"
-                    src='/assets/images/hero-pizza.jpg' 
+                    src='./assets/images/hero-pizza.jpg' 
                     alt='pizza'    
                 />
             </div>
