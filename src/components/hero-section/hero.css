@@ -27,6 +27,7 @@
     left: 12vw; 
     min-width: 60%;
     min-height: 150px;
+    z-index: 30;
 }   
 
 /*Tablet Size*/
