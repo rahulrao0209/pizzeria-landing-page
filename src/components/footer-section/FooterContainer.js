@@ -31,7 +31,7 @@ export const FooterContainer = () => {
                     <div>
                         <img
                             className='footer-icons' 
-                            src='/assets/images/footer-section/facebook-icon.svg'
+                            src='./assets/images/footer-section/facebook-icon.svg'
                             alt='facebook-icon'
                         />
                     </div>
@@ -39,7 +39,7 @@ export const FooterContainer = () => {
                     <div>
                         <img
                             className='footer-icons' 
-                            src='/assets/images/footer-section/twitter-icon.svg'
+                            src='./assets/images/footer-section/twitter-icon.svg'
                             alt='twitter-icon'
                         />
                     </div>
@@ -47,7 +47,7 @@ export const FooterContainer = () => {
                     <div>
                         <img
                             className='footer-icons' 
-                            src='/assets/images/footer-section/insta-icon.svg'
+                            src='./assets/images/footer-section/insta-icon.svg'
                             alt='insta-icon'
                         />
                     </div>
@@ -55,7 +55,7 @@ export const FooterContainer = () => {
                     <div>
                         <img
                             className='footer-icons' 
-                            src='/assets/images/footer-section/youtube-icon.svg'
+                            src='./assets/images/footer-section/youtube-icon.svg'
                             alt='youtube-icon'
                         />
                     </div>

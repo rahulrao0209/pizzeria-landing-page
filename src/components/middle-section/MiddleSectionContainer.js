@@ -8,7 +8,7 @@ export const MiddleSectionContainer = () => {
             <div className="middle-section-image-block">
                 <img
                     className='pizza-image'
-                    src='/assets/images/middle-section-images/paneer-barbeque.png'
+                    src='./assets/images/middle-section-images/paneer-barbeque.png'
                     alt='paneer-barbeque'
                 />
                 <p className='pizza-name'>Paneer Barbeque</p>
@@ -16,7 +16,7 @@ export const MiddleSectionContainer = () => {
             <div className='middle-section-image-block'>
                 <img
                     className='pizza-image'
-                    src='/assets/images/middle-section-images/mexican-loaded.png'
+                    src='./assets/images/middle-section-images/mexican-loaded.png'
                     alt='mexican-loaded'
                 />
                 <p className='pizza-name'>Mexican Loaded</p>
@@ -24,7 +24,7 @@ export const MiddleSectionContainer = () => {
             <div className='middle-section-image-block'>
                 <img
                     className='pizza-image'
-                    src='/assets/images/middle-section-images/fresh-cheese-veggie.png'
+                    src='./assets/images/middle-section-images/fresh-cheese-veggie.png'
                     alt='fresh-cheese-veggie'
                 />
                 <p className='pizza-name'>Fresh Cheese Veggie</p>
@@ -32,7 +32,7 @@ export const MiddleSectionContainer = () => {
             <div className='middle-section-image-block'>
                 <img
                     className='pizza-image'
-                    src='/assets/images/middle-section-images/onion-cheese-crisp.png'
+                    src='./assets/images/middle-section-images/onion-cheese-crisp.png'
                     alt='onion-cheese-crisp'
                 />
                 <p className='pizza-name'>Onion Cheese Crisp</p>
@@ -40,7 +40,7 @@ export const MiddleSectionContainer = () => {
             <div className='middle-section-image-block'>
                 <img
                     className='pizza-image'
-                    src='/assets/images/middle-section-images/chicken-cheesy.png'
+                    src='./assets/images/middle-section-images/chicken-cheesy.png'
                     alt='chicken-cheesy'
                 />
                 <p className='pizza-name'>Chicken Cheesy</p>
@@ -48,7 +48,7 @@ export const MiddleSectionContainer = () => {
             <div className='middle-section-image-block'>
                 <img
                     className='pizza-image'
-                    src='/assets/images/middle-section-images/veg-delight.png'
+                    src='./assets/images/middle-section-images/veg-delight.png'
                     alt='veg-delight'
                 />
                 <p className='pizza-name'>Veg Delight</p>
