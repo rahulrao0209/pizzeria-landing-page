@@ -1,6 +1,6 @@
 .navbar-container {
     background: #614232;
-    width: 100vw;
+    max-width: 100vw;
     height: 50px;
     position: sticky;
     top: 0;
