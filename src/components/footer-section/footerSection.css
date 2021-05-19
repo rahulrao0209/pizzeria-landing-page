@@ -2,8 +2,8 @@
 
 .footer-section {
     max-width: 1440px;
-    /* height: 650px; */
-    height: auto;
+    height: 650px;
+    /* height: auto; */
     background: #614232;
     /* max-height: 870px; */
 }
