@@ -31,7 +31,8 @@
 
 /*Tablet Size*/
 @media (min-width: 930px) and (max-width: 990px) {  
-    .heroHeadingOverlay { 
+    .heroHeadingOverlay {
+        opacity: 50%; 
         width: 80%;
     }
 
@@ -47,7 +48,8 @@
         font-size: 58px;
     }
     
-    .heroHeadingOverlay { 
+    .heroHeadingOverlay {
+        opacity: 50%; 
         width: 90%;
         top: 30vh;
         padding: 0 0.5rem;
@@ -71,6 +73,7 @@
     }
 
     .heroHeadingOverlay {
+        opacity: 50%;
         top: 50px;
         left: 0; 
         width: 100vw;
@@ -94,6 +97,7 @@
     }
     
     .heroHeadingOverlay {
+        opacity: 50%;
         top: 50px;
         left: 0; 
         width: 100vw;
