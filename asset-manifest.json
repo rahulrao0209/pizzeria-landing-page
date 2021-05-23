@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/pizzeria-landing-page/static/css/main.921de737.chunk.css",
-    "main.js": "/pizzeria-landing-page/static/js/main.b781dda3.chunk.js",
-    "main.js.map": "/pizzeria-landing-page/static/js/main.b781dda3.chunk.js.map",
+    "main.css": "/pizzeria-landing-page/static/css/main.1901ec4b.chunk.css",
+    "main.js": "/pizzeria-landing-page/static/js/main.fe74f027.chunk.js",
+    "main.js.map": "/pizzeria-landing-page/static/js/main.fe74f027.chunk.js.map",
     "runtime-main.js": "/pizzeria-landing-page/static/js/runtime-main.e85753fd.js",
     "runtime-main.js.map": "/pizzeria-landing-page/static/js/runtime-main.e85753fd.js.map",
-    "static/js/2.047df835.chunk.js": "/pizzeria-landing-page/static/js/2.047df835.chunk.js",
-    "static/js/2.047df835.chunk.js.map": "/pizzeria-landing-page/static/js/2.047df835.chunk.js.map",
+    "static/js/2.f1764786.chunk.js": "/pizzeria-landing-page/static/js/2.f1764786.chunk.js",
+    "static/js/2.f1764786.chunk.js.map": "/pizzeria-landing-page/static/js/2.f1764786.chunk.js.map",
     "index.html": "/pizzeria-landing-page/index.html",
-    "static/css/main.921de737.chunk.css.map": "/pizzeria-landing-page/static/css/main.921de737.chunk.css.map",
-    "static/js/2.047df835.chunk.js.LICENSE.txt": "/pizzeria-landing-page/static/js/2.047df835.chunk.js.LICENSE.txt"
+    "static/css/main.1901ec4b.chunk.css.map": "/pizzeria-landing-page/static/css/main.1901ec4b.chunk.css.map",
+    "static/js/2.f1764786.chunk.js.LICENSE.txt": "/pizzeria-landing-page/static/js/2.f1764786.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.e85753fd.js",
-    "static/js/2.047df835.chunk.js",
-    "static/css/main.921de737.chunk.css",
-    "static/js/main.b781dda3.chunk.js"
+    "static/js/2.f1764786.chunk.js",
+    "static/css/main.1901ec4b.chunk.css",
+    "static/js/main.fe74f027.chunk.js"
   ]
 }
