@@ -85,7 +85,7 @@
 
 /*Tablet Size*/
 @media (min-width: 768px) and (max-width: 990px) {  
-
+    
 }
 
 /*Mobile Landscape Size*/
@@ -100,6 +100,8 @@
 
     .navbar__hamburger {
         display: block;
+        position: relative;
+        z-index: 30;
         color: #fff;
         font-size: 28px;
         margin-top: 0.5rem;

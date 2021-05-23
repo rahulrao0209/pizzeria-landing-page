@@ -9,7 +9,7 @@ export const Navbar = () => {
                 <div className="navbar__logo">
                     <h1>Pizzeria</h1>
                 </div>
-                <div className='navbar__hamburger'>
+                <div className="navbar__hamburger">
                     <FaBars />
                 </div>
                 <ul className="navbar__links">
